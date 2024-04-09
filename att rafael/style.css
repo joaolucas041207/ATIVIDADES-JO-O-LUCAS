@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+
+.card{
+    
+    background-color: aqua;
+    width: 300px;
+    height: 400px;
+    border-radius: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+input{
+    width: 50%;
+}
